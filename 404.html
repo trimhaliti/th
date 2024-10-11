@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <script>
+        (function() {
+            const storedTheme = localStorage.getItem('theme');
+            if (storedTheme === 'dark') {
+                document.documentElement.classList.add('dark');
+            }
+        })();
+
+    </script>
+
+<meta charset="UTF-8">
+<title>404 👀</title>
+<meta name="author" content="Trim Haliti">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="title" content="404 👀">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="404 👀">
+<meta property="og:url" content="https://trimhaliti.com/404">
+
+<link rel="icon" type="image/png" href="https://trimhaliti.com/assets/favicon.png">
+<link rel="apple-touch-icon" href="https://trimhaliti.com/assets/apple-icon.png">
+<link rel="stylesheet" href="https://trimhaliti.com/css/styles.css">
+</head>
+
+<body>
+    <nav class="sticky-nav">
+        <div class="menu-container">
+            <div class="nav-left">
+            </div>
+            <div class="nav-right">
+                <div class="theme-switcher">
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="subpage-header">
+            <h1 class="main-title">
+                👀
+            </h1>
+            <p class="compact">
+                404
+            </p>
+            <p class="compact">
+                There's nothing here!
+            </p>
+            <p>
+                <a class="inline-icon" href="/"><span class="subtle unselectable">&#8592;&#160;</span>Home</a>
+            </p>
+        </div>
+    </main>
+    <audio id="themeSwitcherClickSound" src="audio/switch.wav"></audio>
+    <script src="js/theme-switcher.js"></script>
+</body>
+
+</html>
