@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <script>
+        (function() {
+            const storedTheme = localStorage.getItem('theme');
+            if (storedTheme === 'dark') {
+                document.documentElement.classList.add('dark');
+            }
+        })();
+
+    </script>
+
+    <meta charset="UTF-8">
+    <title>Trim Haliti</title>
+    <meta name="author" content="Trim Haliti">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Trim Haliti">
+    <meta name="description" content="A seasoned multimedia journalist in Kosovo">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Trim Haliti">
+    <meta property="og:description" content="A seasoned multimedia journalist in Kosovo">
+    <meta property="og:url" content="https://trimhaliti.com/">
+    <meta property="og:image" content="https://trimhaliti.com/assets/social.png">
+
+    <link rel="icon" type="image/png" href="https://trimhaliti.com/assets/favicon.png">
+    <link rel="apple-touch-icon" href="https://trimhaliti.com/assets/apple-touch-icon.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav class="global-nav">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="nav-links">
+                    <a href="/">Trim Haliti</a>
+                    <svg viewBox="0 -1 25 25" role="img" fill="#1D9BF0" data-testid="icon-verified"><g><path d="M22.25 12c0-1.43-.88-2.67-2.19-3.34.46-1.39.2-2.9-.81-3.91s-2.52-1.27-3.91-.81c-.66-1.31-1.91-2.19-3.34-2.19s-2.67.88-3.33 2.19c-1.4-.46-2.91-.2-3.92.81s-1.26 2.52-.8 3.91c-1.31.67-2.2 1.91-2.2 3.34s.89 2.67 2.2 3.34c-.46 1.39-.21 2.9.8 3.91s2.52 1.26 3.91.81c.67 1.31 1.91 2.19 3.34 2.19s2.68-.88 3.34-2.19c1.39.45 2.9.2 3.91-.81s1.27-2.52.81-3.91c1.31-.67 2.19-1.91 2.19-3.34zm-11.71 4.2L6.8 12.46l1.41-1.42 2.26 2.26 4.8-5.23 1.47 1.36-6.2 6.77z"></path></g></svg>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="theme-switcher">
+                    <button id="theme-switcher" aria-label="Toggle theme">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="theme-icon moon-icon" viewBox="0 0 512 512" width="16" height="16">
+                            <path d="M264 480A232 232 0 0132 248c0-94 54-178.28 137.61-214.67a16 16 0 0121.06 21.06C181.07 76.43 176 104.66 176 136c0 110.28 89.72 200 200 200 31.34 0 59.57-5.07 81.61-14.67a16 16 0 0121.06 21.06C442.28 426 358 480 264 480z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="theme-icon sun-icon" viewBox="0 0 512 512" width="16" height="16">
+                            <path d="M256 118a22 22 0 01-22-22V48a22 22 0 0144 0v48a22 22 0 01-22 22zM256 486a22 22 0 01-22-22v-48a22 22 0 0144 0v48a22 22 0 01-22 22zM369.14 164.86a22 22 0 01-15.56-37.55l33.94-33.94a22 22 0 0131.11 31.11l-33.94 33.94a21.93 21.93 0 01-15.55 6.44zM108.92 425.08a22 22 0 01-15.55-37.56l33.94-33.94a22 22 0 1131.11 31.11l-33.94 33.94a21.94 21.94 0 01-15.56 6.45zM464 278h-48a22 22 0 010-44h48a22 22 0 010 44zM96 278H48a22 22 0 010-44h48a22 22 0 010 44zM403.08 425.08a21.94 21.94 0 01-15.56-6.45l-33.94-33.94a22 22 0 0131.11-31.11l33.94 33.94a22 22 0 01-15.55 37.56zM142.86 164.86a21.89 21.89 0 01-15.55-6.44l-33.94-33.94a22 22 0 0131.11-31.11l33.94 33.94a22 22 0 01-15.56 37.55zM256 358a102 102 0 11102-102 102.12 102.12 0 01-102 102z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="homepage-header">
+            <div class="avatar-container">
+                <img class="avatar" width="80px" src="assets/avatar.png" alt="Avatar" title="That's me">
+            </div>
+            <h1 class="homepage italic">
+                A seasoned multimedia journalist in Kosovo
+
+            </h1>
+            <p>
+                Across 15+ years, I have shaped stories in print, broadcast, and digital media.
+            </p>
+            
+        </div>
+    </header>
+    <main>
+        <section id="work">
+            <h2 class="section-title italic">
+                My career
+            </h2>
+            <div class="project-block">
+                    <div class="project-item-box">
+                        <h3 class="project-title">
+                            Currently
+                        </h3>
+                        <p class="project-description secondary">
+                            Chief Digital Editor at <a rel="noopener" target="_blank" href="https://www.evropaelire.org/s?k=Trim%20Haliti&tab=all&pi=1&r=any&pp=10"><i>Radio Evropa e Lirë</i></a>, the Albanian language service of Radio Free Europe/Radio Liberty.
+                        </p>
+                    </div>
+                </a>
+                    <div class="project-item-box">
+                        <h3 class="project-title">
+                            Previously
+                        </h3>
+                        <p class="project-description secondary">
+                            Journalist & Editor at <i>Gazeta Express</i>, World News & Technology Editor at <i>Tribuna Channel</i>, World News Editor at <i>Tribuna</i>, Translator & Copy Editor at <i>Kosovo 2.0</i>, Translator & Deputy World News Editor at <i>Zëri</i>.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="work">
+            <h2 class="section-title italic">
+                My expertise
+            </h2>
+            <div class="project-block">
+                    <div class="project-item-box">
+                        <h3 class="project-title">
+                            Beyond journalism
+                        </h3>
+                        <p class="project-description secondary">
+                        I am also a social media specialist, web developer, law degree holder, and IT hobbyist.
+                        </p>
+                    </div>
+                </a>
+                    <div class="project-item-box">
+                        <h3 class="project-title">
+                            My skills
+                        </h3>
+                        <p class="project-description secondary">
+                            Writing, translation, editing and proofreading, social media content production, and web development.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="work">
+            <h2 class="section-title italic">
+                More about me
+            </h2>
+            <div class="project-block">
+                <section>
+                    <p class="now">
+                        Living in Pristina, Kosovo since forever.
+                    </p>
+                    <hr class="small-break">
+                    <p class="now">
+                        Raising an amazing daughter with my incredible wife.
+                    </p>
+                    <hr class="small-break">
+                    <p class="now">
+                        Cheering on Bayern München every weekend and occasional midweeks.
+                    </p>
+                    <hr class="small-break">
+                    <p class="now">
+                        Enjoying movie nights at home - and keeping a <a href="https://letterboxd.com/trimhaliti" target="_blank" rel="noopener"><i>film diary</i></a>.
+                    </p>
+                    <hr class="small-break">
+                    <p class="now">
+                        Continously exploring tech and tools to make life easier and better.
+                    </p>
+                    <hr class="small-break">
+                    </section>
+        </main>
+    <footer>
+        <div class="links-side-by-side">
+            <p class="footer-text">
+                <a class="inline-icon" href="mailto:hello@trimhaliti.com">hello@trimhaliti.com</a>
+            </p>
+            <p class="footer-text">
+                <a class="inline-icon" rel="noopener" target="_blank" href="https://facebook.com/trimhaliti">Facebook</a>
+            </p>
+            <p class="footer-text">
+                <a class="inline-icon" rel="noopener" target="_blank" href="https://instagram.com/trimhaliti">Instagram</a>
+            </p>
+        </div>
+        <div class="footer-container">
+            <p class="footer-text secondary">
+                &copy; 2024 Trim Haliti
+            </p>
+        </div>
+    </footer>
+    <audio id="themeSwitcherClickSound" src="audio/switch.wav"></audio>
+    <script src="js/theme-switcher.js" defer></script>
+
+    <script async defer src="https://scripts.withcabin.com/hello.js"></script>
+</body>
+
+</html>
