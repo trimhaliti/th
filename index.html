@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A seasoned multimedia journalist in Kosovo"
+    />
+    <meta name="author" content="Trim Haliti" />
+    <meta property="og:title" content="Trim Haliti" />
+    <meta
+      property="og:description"
+      content="A seasoned multimedia journalist in Kosovo"
+    />
+    <meta
+      property="og:image"
+      content="https://trimhaliti.com/assets/social.png"
+    />
+    <meta property="og:url" content="https://trimhaliti.com" />
+    <link rel="canonical" href="https://trimhaliti.com" />
+    <link rel="icon" type="image/png" href="https://trimhaliti.com/assets/favicon.png">
+    <link rel="apple-touch-icon" href="https://trimhaliti.com/assets/apple-touch-icon.png">
+    <link
+      rel="preload"
+      href="https://trimhaliti.com/assets/ServerMono-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <title>Trim Haliti</title>
+    <style>
+      @font-face {
+        font-family: 'Server Mono';
+        src: url('https://trimhaliti.com/assets/ServerMono-Regular.woff2')
+          format('woff2');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      * {
+        font-family: 'Server Mono', monospace;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: -0.02em;
+        line-height: 1.3;
+        text-transform: uppercase;
+      }
+      html {
+        color: #ffffff90;
+        background-color: #010101;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-font-smoothing: antialiased;
+      }
+      h1,
+      body,
+      p {
+        margin: 0;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+        height: 100dvh;
+        max-width: 450px;
+        margin: 0 auto;
+        padding: 0 16px;
+      }
+      a {
+        color: #ffffffec;
+        text-decoration: none;
+      }
+      h1 {
+        color: #ffffffec;
+      }
+      video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+        filter: grayscale(100%);
+        opacity: 0.2;
+        pointer-events: none;
+      }
+      .profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+          opacity: 0.7;
+  margin-bottom: -1.4rem;
+}
+    </style>
+  </head>
+  <body>
+    <main>
+      <a href="/">
+        <img
+          src="assets/avatar.png"
+          class="profile-img"
+        />
+        </a>
+      <h1>Trim Haliti</h1>
+      <p>
+        Multimedia journalist, currently steering 
+        <a href="https://www.evropaelire.org/" target="_blank" rel="noopener noreferrer"
+          >Radio Evropa e Lirë</a
+        >
+         — the Albanian language service of Radio Free Europe/Radio Liberty — as its Acting Managing Editor.
+      </p>
+      <p>
+        Get in touch:<br>
+        <a href="mailto:hello@trimhaliti.com">hello@trimhaliti.com</a>
+      </p>
+      <video
+        src="assets/hd.mp4"
+        autoplay
+        loop
+        muted
+        playsinline
+        aria-hidden="true"
+      ></video>
+    </main>
+    <script async defer src="https://scripts.withcabin.com/hello.js"></script>
+</body>
+</html>
